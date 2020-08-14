@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas {
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+body {
+    background-color: #444444;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    font-size: 40px;
+    font-family: monospace;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    right: 200px;
+    margin-left: 100px;
+    background-image: url();
+}
+
